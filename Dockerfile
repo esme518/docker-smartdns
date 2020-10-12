@@ -4,7 +4,7 @@
 
 FROM alpine:latest
 
-ARG DL_URL="https://github.com/pymumu/smartdns/releases/download/Release31/smartdns.1.2020.05.04-0005.x86_64-linux-all.tar.gz"
+ARG DL_URL="https://github.com/pymumu/smartdns/releases/download/Release33/smartdns.1.2020.09.08-2235.x86_64-linux-all.tar.gz"
 
 RUN set -ex \
     && apk --update add --no-cache \
